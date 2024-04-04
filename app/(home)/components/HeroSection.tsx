@@ -18,7 +18,7 @@ export default function HeroSection() {
             </h1>
             <p className="md:w-96 text-lg text-gray-300">
                 {
-                    "I'm a highschool developer based in Los Angeles, California. I enjoy creating mobile applications, video games, and low-level programs."
+                    "I'm a highschool developer based in Los Angeles, California. I enjoy creating mobile applications, video games, and low-level programs. I heavily dislike web development."
                 }
             </p>
             <Link href={"mailto:kenshonishio7@gmail.com"} className="inline-block group">
@@ -30,12 +30,12 @@ export default function HeroSection() {
             </Link>
         </div>
         <div className="flex gap-4">
-            <BackgroundGradient className="rounded-[22px] max-w-sm p-8 sm:p-10 bg-white dark:bg-zinc-900">
+            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
                 <Image
-                    src={`/KoreanRoomPic.jpg`}
-                    alt="babykensho"
-                    height="400"
-                    width="400"
+                    src={`/KetchupKensho.svg`}
+                    alt="KetchupKensho"
+                    height="800"
+                    width="800"
                     className="object-contain rounded-2xl"
                 />
             </BackgroundGradient>
