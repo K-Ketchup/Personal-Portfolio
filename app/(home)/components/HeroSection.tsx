@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react"
 import { BackgroundGradient } from "@/components/ui/Background-Gradient";
 import Image from "next/image";
+import Title from "./Title";
 
 export default function HeroSection() {
     return <div className="min-h-[60vh] flex flex-col-reverse gap-12 lg:gap-0 lg:flex-row items-center justify-between">
@@ -22,11 +23,7 @@ export default function HeroSection() {
                 }
             </p>
             <Link href={"mailto:kenshonishio7@gmail.com"} className="inline-block group">
-                <div>
-                    <h1 className="text-3xl font-bold group-hover:text-red-400 transition-all">Contact 📧</h1>
-                    <div className="w-40 h-2 bg-red-400 rounded-full"></div>
-                    <div className="w-40 h-2 bg-red-500 rounded-full translate-x-2"></div>
-                </div>
+                <Title text="Contact 📧"/>
             </Link>
         </div>
         <div className="flex gap-4">
