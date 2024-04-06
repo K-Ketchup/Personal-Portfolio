@@ -19,7 +19,7 @@ export default function HeroSection() {
             </h1>
             <p className="md:w-96 text-lg text-gray-300">
                 {
-                    "I'm a highschool beginner-level developer based in Los Angeles, California. I enjoy creating mobile applications, video games, and low-level programs. I am very insecure about my github contribution chart and I heavily dislike web development."
+                    "I'm a highschool beginner-level developer based in Los Angeles, California. I enjoy creating mobile applications, video games, and low-level programs. I am very insecure about my github contribution chart and I heavily dislike web development. Currently learning Rust."
                 }
             </p>
             <div className="flex justify-start">

@@ -51,7 +51,7 @@ export default function Skills() {
             <div className="h-[20rem] space-x-5 relative  flex items-center justify-center">
                 <DirectionAwareHover imageUrl={"/tslang.png"}>
                     <p className="font-bold text-xl">Next.js, Tailwind, Typescript, etc.</p>
-                    <p className="font-normal text-sm">4 Days. To create this.</p>
+                    <p className="font-normal text-sm">5 Days. To create this.</p>
                 </DirectionAwareHover>
                 <DirectionAwareHover imageUrl={"/azureservices.png"}>
                     <p className="font-bold text-xl">Azure</p>
