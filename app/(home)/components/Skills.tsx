@@ -16,7 +16,7 @@ export default function Skills() {
             <div className="space-y-10 text-center lg:text-center flex justify-center">
                 <p className="md:w-80 text-lg text-gray-300">
                     {
-                        "Taken with a grain of salt. I have been coding on and off, so these are bound to be quite inaccurate."
+                        "Take these with a grain of salt. I have been coding on and off, so these are bound to be quite inaccurate."
                     }
                 </p>
             </div>

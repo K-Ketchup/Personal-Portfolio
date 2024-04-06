@@ -23,7 +23,7 @@ export default function Navbar({className}:{className?:string}) {
     ]
 
     return (
-        <nav className={cn("py-10 flex justify-between items-center", className)}>
+        <nav className={cn("py-10 flex justify-between items-center animate-movedown", className)}>
             <h1 className="text-2x1 font-bold underline underline-offset-8 decoration-red-400 -rotate-2">imkenshonishio.com</h1>
             <div className="flex items-center gap-5">
                 {socials.map((social, index)=>{

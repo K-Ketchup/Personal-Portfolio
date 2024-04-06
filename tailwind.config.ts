@@ -28,8 +28,30 @@ const config = {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
+        "moveup":"moveup 1s linear forwards",
+        "movedown":"movedown 1s linear forwards"
       },
       keyframes: {
+        "moveup": {
+            from:{
+              transform:"translateY(10px)",
+              opacity:"0"
+            },
+            to:{
+              transform:"translateY(00px)",
+              opacity:"1"
+            }
+        },
+        "movedown": {
+          from:{
+            transform:"translateY(-10px)",
+            opacity:"0"
+          },
+          to:{
+            transform:"translateY(00px)",
+            opacity:"1"
+          }
+      },
         shimmer: {
           from: {
             backgroundPosition: "0 0",

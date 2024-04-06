@@ -7,9 +7,9 @@ import Image from "next/image";
 import Title from "./Title";
 
 export default function HeroSection() {
-    return <div className="min-h-[60vh] flex flex-col-reverse gap-12 lg:gap-0 lg:flex-row items-center justify-between">
+    return <div className="min-h-[60vh] flex flex-col-reverse gap-12 lg:gap-0 lg:flex-row items-center justify-between animate-moveup">
               <Spotlight
-                className="-top-30 -left-4 md:left-900 md:top-12"
+                className="-top-40 left-0 md:-left-24 md:-top-36"
                 fill="white"
               />
         <div className="space-y-10 text-center lg:text-left flex-col flex">
@@ -32,7 +32,7 @@ export default function HeroSection() {
                     </button>
                 </Link>
             </div>
-            <Link href={"mailto:kenshonishio7@gmail.com"} className="inline-block group">
+            <Link href={"mailto:kenshonishio7@gmail.com"} className="inline-block group justify-center items-center">
                 <Title text="Contact 📧"/>
             </Link>
         </div>
