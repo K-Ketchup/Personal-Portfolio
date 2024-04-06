@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 import { SiGithub, SiLinkedin, SiStackoverflow } from "react-icons/si";
 import Link from "next/link";
-//hi!
+
 export default function Skills() {
     return (
         <div className="space-y-5">
