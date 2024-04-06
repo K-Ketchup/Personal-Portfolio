@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
+import { DirectionAwareHover } from "@/components/ui/dahoover";
 import { SiGithub, SiLinkedin, SiStackoverflow } from "react-icons/si";
 import Link from "next/link";
 
