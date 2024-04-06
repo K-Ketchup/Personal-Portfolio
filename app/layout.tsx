@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 	},
 
 	description:
-		"I'm a highschool developer based in Los Angeles, California. I enjoy creating mobile applications, video games, and low-level programs. I heavily dislike web development.",
+		"I'm a beginner-level highschool developer based in Los Angeles, California. I enjoy creating mobile applications, video games, and low-level programs. I heavily dislike web development.",
 	openGraph: {
 		title: "imkenshonishio",
 		description:
-			"I'm a highschool developer based in Los Angeles, California. I enjoy creating mobile applications, video games, and low-level programs. I heavily dislike web development.",
+			"I'm a beginner-level highschool developer based in Los Angeles, California. I enjoy creating mobile applications, video games, and low-level programs. I heavily dislike web development.",
 		url: "http://localhost:3000",
 		siteName: "imkenshonishio",
 		images: "/og.png",
