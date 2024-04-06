@@ -39,7 +39,7 @@ export default function HeroSection() {
         <div className="flex gap-4">
             <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
                 <Image
-                    src={`/KetchupKensho.JPG`}
+                    src={`/KetchupKenshoNormal.JPG`}
                     alt="KetchupKensho"
                     height="800"
                     width="800"
