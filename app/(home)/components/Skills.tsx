@@ -23,7 +23,7 @@ export default function Skills() {
             <div className="h-[20rem] space-x-5 relative  flex items-center justify-center">
                 <DirectionAwareHover imageUrl={"/csharp.jpg"}>
                     <p className="font-bold text-xl">C#</p>
-                    <p className="font-normal text-sm">4 Years. Unity and Appdev.</p>
+                    <p className="font-normal text-sm">5 Years. Unity and Appdev.</p>
                 </DirectionAwareHover>
                 <DirectionAwareHover imageUrl={"/xamllang.png"}>
                     <p className="font-bold text-xl">XAML</p>
@@ -41,7 +41,7 @@ export default function Skills() {
                 </DirectionAwareHover>
                 <DirectionAwareHover imageUrl={"/rustlangg.png"}>
                     <p className="font-bold text-xl">Rust</p>
-                    <p className="font-normal text-sm">3 Months. Osdev.</p>
+                    <p className="font-normal text-sm">7 Months. Osdev.</p>
                 </DirectionAwareHover>
                 <DirectionAwareHover imageUrl={"/javalang.png"}>
                     <p className="font-bold text-xl">Java</p>
@@ -55,11 +55,11 @@ export default function Skills() {
                 </DirectionAwareHover>
                 <DirectionAwareHover imageUrl={"/azureservices.png"}>
                     <p className="font-bold text-xl">Azure</p>
-                    <p className="font-normal text-sm">2 Months. Appdev.</p>
+                    <p className="font-normal text-sm">6 Months. Appdev.</p>
                 </DirectionAwareHover>
                 <DirectionAwareHover imageUrl={"/dotnetfw.png"}>
                     <p className="font-bold text-xl">.NET</p>
-                    <p className="font-normal text-sm">2 Years. Appdev.</p>
+                    <p className="font-normal text-sm">3 Years. Appdev.</p>
                 </DirectionAwareHover>
             </div>
             <div className="flex justify-center">
