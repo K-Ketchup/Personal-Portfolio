@@ -7,14 +7,14 @@ export default function Projects() {
     const projects = [
         {
             title: "Personal Portfolio",
-            tech: [SiNextdotjs, SiTailwindCSS, SiReactquery],
+            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-indigo-500",
         },
         {
             title: "Dook App",
-            tech: [SiNextdotjs, SiTailwindCSS, SiReactquery],
+            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-indigo-500",

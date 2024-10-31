@@ -1,7 +1,7 @@
 "use client";
 import { Spotlight } from "@/components/ui/Spotlight";
 import Link from "next/link";
-import React from "react"
+import React from "react";
 import { BackgroundGradient } from "@/components/ui/Background-Gradient";
 import Image from "next/image";
 import Title from "./Title";

@@ -1,5 +1,5 @@
 "use client";
-import React from "react"
+import React from "react";
 import Title from "./Title";
 import { useRef, useState } from "react";
 import Image from "next/image";
