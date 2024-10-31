@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 export default function page() {
   return (
@@ -17,6 +18,7 @@ export default function page() {
       </div>
       <div className="relative max-w-7xl z-20 mx-auto p-12 mt-20">
         <Skills />
+        <Projects />
         <Footer />
       </div>
     </div>
