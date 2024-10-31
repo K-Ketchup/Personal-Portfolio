@@ -100,12 +100,12 @@ export default function Projects() {
                                     {project.tech.map((Icon, index)=>{
                                         return <Icon className="w-8 h-8" key={index} />;
                                     })}
-                                    <div>
-                                        <p className="md:w-80 text-lg text-gray-300">
-                                            {project.text}
-                                        </p>
-                                    </div>
-                                 </div>
+                                </div>
+                                <div>
+                                    <p className="md:w-80 text-lg text-gray-0">
+                                        {project.text}
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </Link>;
