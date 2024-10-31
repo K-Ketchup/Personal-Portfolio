@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from "./Title";
-import { SiNextdotjs, SiReactquery, SiTailwindcss, SiXaml, SiCsharp, SiMicrosoftazure, SiPython, SiTensorflow, SiKeras } from "react-icons/si";
+import { SiNextdotjs, SiReactquery, SiTailwindcss, SiXaml, SiCsharp, SiMicrosoftazure, SiPython, SiTensorflow, SiKeras, SiUnity, SiAseprite } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import { cn } from '@/lib/utils';
@@ -34,7 +35,7 @@ export default function Projects() {
         },
         {
             title: "Evacuation Drill AI",
-            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            tech: [SiCsharp, SiUnity],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
@@ -42,7 +43,7 @@ export default function Projects() {
         },
         {
             title: "Digital Diary",
-            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            tech: [SiCsharp, SiUnity],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
@@ -50,7 +51,7 @@ export default function Projects() {
         },
         {
             title: "Digital License Register",
-            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            tech: [SiCsharp, SiUnity],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-400",
@@ -58,7 +59,7 @@ export default function Projects() {
         },
         {
             title: "Library Database",
-            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            tech: [FaJava],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-400",
@@ -66,7 +67,7 @@ export default function Projects() {
         },
         {
             title: "Video Games",
-            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            tech: [SiCsharp, SiUnity, SiAseprite],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
@@ -84,7 +85,7 @@ export default function Projects() {
                     }
                 </p>
             </div>
-            <div className="mt-7">
+            <div className="py-20">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-2">
                     {projects.map((project, index)=>{
                         return <Link href={project.Link} key={index}>
