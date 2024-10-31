@@ -38,10 +38,16 @@ export default function Projects() {
                         >
                             <DirectionAwareHover 
                                 imageUrl={project.cover}
-                                className="w-full space-y-5 cursor-pointer"
+                                className="flex items-center gap-5"
                             >
-                                <h1>{project.title}</h1>
-                                
+                                <div className="space-y-5">
+                                    <h1 className="text-2xl font-bold">{project.title}</h1>
+                                    <div>
+                                        {project.tech.map((Icon, index)=>{
+                                            return <Icon className="w-8 h-8" key={index} />;
+                                        })}
+                                    </div>
+                                </div>
                             </DirectionAwareHover>
                         </div>
                     </Link>;
