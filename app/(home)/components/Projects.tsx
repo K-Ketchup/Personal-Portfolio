@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from "./Title";
-import { SiNextdotjs, SiReactquery, SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs, SiReactquery, SiTailwindcss, SiXaml, SiCsharp, SiMicrosoftazure, SiPython, SiTensorflow, SiKeras } from "react-icons/si";
 import Link from "next/link";
 import Image from "next/image";
 import { cn } from '@/lib/utils';
@@ -17,7 +17,23 @@ export default function Projects() {
             text: "",
         },
         {
-            title: "Dook App",
+            title: "Dook",
+            tech: [SiXaml, SiCsharp, SiMicrosoftazure],
+            Link: "https://imkenshonishio.vercel.app/",
+            cover: "/brownemotiondetector.png",
+            background: "bg-red-400",
+            text: "",
+        },
+        {
+            title: "Facial Emotion AI",
+            tech: [SiPython, SiTensorflow, SiKeras],
+            Link: "https://imkenshonishio.vercel.app/",
+            cover: "/brownemotiondetector.png",
+            background: "bg-red-400",
+            text: "",
+        },
+        {
+            title: "Evacuation Drill AI",
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
@@ -25,7 +41,39 @@ export default function Projects() {
             text: "",
         },
         {
-            title: "Bruh",
+            title: "Library Database",
+            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            Link: "https://imkenshonishio.vercel.app/",
+            cover: "/brownpersonalportfolio.png",
+            background: "bg-red-400",
+            text: "",
+        },
+        {
+            title: "Ketchup First Game",
+            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            Link: "https://imkenshonishio.vercel.app/",
+            cover: "/brownpersonalportfolio.png",
+            background: "bg-red-400",
+            text: "",
+        },
+        {
+            title: "Boneshackled",
+            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            Link: "https://imkenshonishio.vercel.app/",
+            cover: "/brownpersonalportfolio.png",
+            background: "bg-red-400",
+            text: "",
+        },
+        {
+            title: "Digital Diary",
+            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            Link: "https://imkenshonishio.vercel.app/",
+            cover: "/brownpersonalportfolio.png",
+            background: "bg-red-400",
+            text: "",
+        },
+        {
+            title: "Digital License Register",
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
