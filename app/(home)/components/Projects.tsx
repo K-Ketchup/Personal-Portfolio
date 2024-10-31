@@ -75,9 +75,16 @@ export default function Projects() {
     ];
 
     return (
-        <div className="py-20 pt-5 p-5 sm:p-0 space-y-5">
-            <Title text="Projects" className="flex flex-col items-center justify-center rotate-6 mt-10"/>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-5">
+        <div className="py-30 pt-5 p-5 sm:p-0 space-y-5">
+            <Title text="Projects" className="flex flex-col items-center justify-center rotate-6 mt-20"/>
+            <div className="space-y-10 text-center lg:text-center flex justify-center">
+                <p className="md:w-80 text-lg text-gray-300">
+                    {
+                        "Here are some projects I've worked on over the years!"
+                    }
+                </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-10">
                 {projects.map((project, index)=>{
                     return <Link href={project.Link} key={index}>
                         <div
@@ -93,20 +100,21 @@ export default function Projects() {
                                 width="700"
                                 className="object-contain rounded-2xl justify-center"
                             />
-                            
-                            <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
 
-                            <div className="flex flex-row space-y-1">
-                                <div className="flex flex-col gap-4">
-                                    {project.tech.map((Icon, index)=>{
-                                        return <Icon className="w-8 h-8" key={index} />;
-                                    })}
+                            <div className="flex flex-column py-2 space-y-3">
+                                <div className="flex flex-row space-x-2">
+                                    <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
+                                    <div className="flex flex-row gap-4">
+                                        {project.tech.map((Icon, index)=>{
+                                            return <Icon className="w-8 h-8" key={index} />;
+                                        })}
+                                    </div>
                                 </div>
                                 <div>
-                                    <p className="md:w-80 text-lg text-gray-0">
-                                        {project.text}
-                                    </p>
-                                </div>
+                                        <p className="md:w-80 text-lg text-gray-0">
+                                            {project.text}
+                                        </p>
+                                    </div>
                             </div>
                         </div>
                     </Link>;
