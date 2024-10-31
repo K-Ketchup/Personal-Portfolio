@@ -82,10 +82,10 @@ export default function Projects() {
                     return <Link href={project.Link} key={index}>
                         <div
                             className={cn(
-                                "p-5 rounded-2xl gap-2 h-600", 
+                                "p-5 rounded-2xl gap-4 h-600", 
                                 project.background
-                            )}
-                        >
+                            )}>
+                                
                            <Image
                                 src={project.cover}
                                 alt="ProjectImage"
@@ -94,8 +94,9 @@ export default function Projects() {
                                 className="object-contain rounded-2xl justify-center"
                             />
                             
-                            <div className="space-y-1">
-                                <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
+                            <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
+
+                            <div className="flex flex-row space-y-1">
                                 <div className="flex flex-col gap-4">
                                     {project.tech.map((Icon, index)=>{
                                         return <Icon className="w-8 h-8" key={index} />;
