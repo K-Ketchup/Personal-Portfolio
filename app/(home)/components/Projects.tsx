@@ -77,7 +77,7 @@ export default function Projects() {
                     }
                 </p>
             </div>
-            <div className="py-13">
+            <div className="py-18">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-2">
                     {projects.map((project, index)=>{
                         return <div key={index}>
