@@ -12,7 +12,6 @@ export default function Projects() {
         {
             title: "Personal Portfolio",
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
-            Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
             text: "A website to showcase my skills and projects. Made using Next.js, TypeScript, and React. You can also take a look at my middle school website above!",
@@ -20,7 +19,6 @@ export default function Projects() {
         {
             title: "Dook",
             tech: [SiXaml, SiCsharp, SiMicrosoftazure],
-            Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownemotiondetector.png",
             background: "bg-red-400",
             text: "Utility iOS and Android mobile application made using .NET MAUI. The backend is C#, frontend is XAML, and every user input is logged in an Azure database using SQL.",
@@ -28,7 +26,6 @@ export default function Projects() {
         {
             title: "Facial Emotion AI",
             tech: [SiPython, SiTensorflow, SiKeras],
-            Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownemotiondetector.png",
             background: "bg-red-400",
             text: "An AI facial emotion detector created with Python and Tensorflow. Uses a convolution neural network to plot facial landmarks, measure euclidian distances between them, and evaluate an emotion.",
@@ -36,7 +33,6 @@ export default function Projects() {
         {
             title: "Evacuation Drill AI",
             tech: [SiCsharp, SiUnity],
-            Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
             text: "An AI school evacuation drill simulator that analyzes clog points and crowds during evacuation using neural networks to produce optimal paths for evacuation. Made using Unity and C#.",
@@ -44,7 +40,6 @@ export default function Projects() {
         {
             title: "Digital Diary",
             tech: [SiCsharp, SiUnity],
-            Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
             text: "A digital diary made using Unity and C#. All data can be exported through a .txt file.",
@@ -52,7 +47,6 @@ export default function Projects() {
         {
             title: "Digital License Register",
             tech: [SiCsharp, SiUnity],
-            Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-400",
             text: "A digital driver's license catalog made using Unity and C#.",
@@ -60,7 +54,6 @@ export default function Projects() {
         {
             title: "Library Database",
             tech: [FaJava],
-            Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-400",
             text: "A text-based Java library database. Can be used to log data of different books/movies/articles and can also account for monthly pay. All data can be exported through a .txt file.",
@@ -68,7 +61,6 @@ export default function Projects() {
         {
             title: "Video Games",
             tech: [SiCsharp, SiUnity, SiAseprite],
-            Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
             text: "Consists of several different games created solo using Unity and C#. All sprites, animations, level design, and sound design is by me.",
@@ -88,7 +80,7 @@ export default function Projects() {
             <div className="py-20">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-2">
                     {projects.map((project, index)=>{
-                        return <Link href={project.Link} key={index}>
+                        return <div key={index}>
                             <div
                                 className={cn(
                                     "p-5 rounded-2xl gap-4 h-600 mt-15", 
@@ -119,7 +111,7 @@ export default function Projects() {
                                     </div>
                                 </div>
                             </div>
-                        </Link>;
+                        </div>;
                     })}
                 </div>
                 <div className="flex justify-center space-y-20">
