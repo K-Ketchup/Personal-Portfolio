@@ -35,7 +35,7 @@ export default function Projects() {
     ];
 
     return (
-        <div className="py-10 pt-5 p-5 sm:p-0 space-y-5">
+        <div className="py-10 pt-5 p-5 sm:p-0 space-y-2">
             <Title text="Projects" className="flex flex-col items-center justify-center rotate-6"/>
             <div className="space-y-10 text-center lg:text-center flex justify-center">
                 <p className="md:w-80 text-lg text-gray-300">
@@ -44,7 +44,7 @@ export default function Projects() {
                     }
                 </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-7">
+            <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-10">
                 {projects.map((project, index)=>{
                     return <Link href={project.Link} key={index}>
                         <div
@@ -63,10 +63,17 @@ export default function Projects() {
                             
                             <div className="space-y-1">
                                 <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
-                                <div>
+                                <div className="flex gap-4">
                                     {project.tech.map((Icon, index)=>{
                                         return <Icon className="w-8 h-8" key={index} />;
                                     })}
+                                    <div>
+                                        <p className="md:w-80 text-lg text-gray-300">
+                                            {
+                                                "Here are some projects I've worked on over the past few years!"
+                                            }
+                                        </p>
+                                    </div>
                                  </div>
                             </div>
                         </div>
