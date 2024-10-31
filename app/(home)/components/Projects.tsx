@@ -13,7 +13,7 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
-            background: "bg-indigo-500",
+            background: "bg-red-500",
             text: "",
         },
         {
@@ -21,7 +21,7 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
-            background: "bg-indigo-500",
+            background: "bg-red-400",
             text: "",
         },
         {
@@ -29,7 +29,7 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
-            background: "bg-indigo-500",
+            background: "bg-red-500",
             text: "",
         },
     ];
@@ -37,7 +37,13 @@ export default function Projects() {
     return (
         <div className="py-10 pt-5 p-5 sm:p-0 space-y-10">
             <Title text="Projects" className="flex flex-col items-center justify-center rotate-6 space-y-10"/>
-
+            <div className="space-y-10 text-center lg:text-center flex justify-center">
+                <p className="md:w-80 text-lg text-gray-300">
+                    {
+                        "Here are some projects I've worked on over the past few years!"
+                    }
+                </p>
+            </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-10">
                 {projects.map((project, index)=>{
                     return <Link href={project.Link} key={index}>
