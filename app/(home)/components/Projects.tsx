@@ -5,6 +5,7 @@ import {
     SiTailwindcss,
 } from "react-icons/si";
 
+import React from 'react'
 import Title from "./Title";
 
 export default function Projects() {
