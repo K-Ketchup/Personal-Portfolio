@@ -35,7 +35,7 @@ export default function Projects() {
     ];
 
     return (
-        <div className="py-10 pt-5 p-5 sm:p-0 space-y-2">
+        <div className="py-5 pt-5 p-5 sm:p-0 space-y-5">
             <Title text="Projects" className="flex flex-col items-center justify-center rotate-6"/>
             <div className="space-y-10 text-center lg:text-center flex justify-center">
                 <p className="md:w-80 text-lg text-gray-300">
@@ -63,7 +63,7 @@ export default function Projects() {
                             
                             <div className="space-y-1">
                                 <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
-                                <div className="flex gap-4">
+                                <div className="flex items-center gap-4">
                                     {project.tech.map((Icon, index)=>{
                                         return <Icon className="w-8 h-8" key={index} />;
                                     })}
