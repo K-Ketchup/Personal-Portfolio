@@ -9,18 +9,18 @@ export default function Projects() {
             title: "Personal Portfolio",
             tech: [SiNextdotjs, SiTailwindCSS, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
-            cover: "/Brown --- Personal Portfolio.png",
+            cover: "/brownpersonalportfolio.png",
             background: "bg-indigo-500",
         },
         {
             title: "Dook App",
             tech: [SiNextdotjs, SiTailwindCSS, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
-            cover: "/Brown --- Personal Portfolio.png",
+            cover: "/brownpersonalportfolio.png",
             background: "bg-indigo-500",
         },
     ];
-    
+
     return (
         <div className="py-10 p-5 sm:p-0">
             <Title
