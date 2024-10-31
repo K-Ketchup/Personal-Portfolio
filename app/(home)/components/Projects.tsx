@@ -98,7 +98,7 @@ export default function Projects() {
                                 alt="ProjectImage"
                                 height="700"
                                 width="700"
-                                className="object-contain rounded-2xl justify-center"
+                                className="object-contain rounded-2xl justify-center max-h-[400]"
                             />
 
                             <div className="flex flex-col py-2 space-y-2">
