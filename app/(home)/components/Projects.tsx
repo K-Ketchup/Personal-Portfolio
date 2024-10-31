@@ -77,55 +77,57 @@ export default function Projects() {
     return (
         <div className="py-50 pt-5 p-5 sm:p-0 space-y-2">
             <Title text="Projects" className="flex flex-col items-center justify-center rotate-6 mt-20"/>
-            <div className="text-center lg:text-center flex justify-center">
+            <div className="space-y-5 text-center lg:text-center flex justify-center">
                 <p className="md:w-80 text-lg text-gray-300">
                     {
                         "Here are some projects I've worked on over the years!"
                     }
                 </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-2">
-                {projects.map((project, index)=>{
-                    return <Link href={project.Link} key={index}>
-                        <div
-                            className={cn(
-                                "p-5 rounded-2xl gap-4 h-600 mt-15", 
-                                project.background
-                            )}>
+            <div className="mt-7">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-2">
+                    {projects.map((project, index)=>{
+                        return <Link href={project.Link} key={index}>
+                            <div
+                                className={cn(
+                                    "p-5 rounded-2xl gap-4 h-600 mt-15", 
+                                    project.background
+                                )}>
 
-                           <Image
-                                src={project.cover}
-                                alt="ProjectImage"
-                                height="700"
-                                width="700"
-                                className="object-contain rounded-2xl justify-center max-h-[380]"
-                            />
+                            <Image
+                                    src={project.cover}
+                                    alt="ProjectImage"
+                                    height="700"
+                                    width="700"
+                                    className="object-contain rounded-2xl justify-center max-h-[380]"
+                                />
 
-                            <div className="flex flex-col py-2 space-y-2">
-                                <div className="flex flex-row space-x-4">
-                                    <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
-                                    <div className="flex flex-row gap-4">
-                                        {project.tech.map((Icon, index)=>{
-                                            return <Icon className="w-8 h-8" key={index} />;
-                                        })}
+                                <div className="flex flex-col py-2 space-y-2">
+                                    <div className="flex flex-row space-x-4">
+                                        <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
+                                        <div className="flex flex-row gap-4">
+                                            {project.tech.map((Icon, index)=>{
+                                                return <Icon className="w-8 h-8" key={index} />;
+                                            })}
+                                        </div>
+                                    </div>
+                                    <div>
+                                    <p className="md:w-140 text-lg text-gray-0">
+                                            {project.text}
+                                        </p>
                                     </div>
                                 </div>
-                                <div>
-                                   <p className="md:w-140 text-lg text-gray-0">
-                                        {project.text}
-                                    </p>
-                                </div>
                             </div>
-                        </div>
-                    </Link>;
-                })}
-            </div>
-            <div className="flex justify-center space-y-20">
-                <Link href="https://github.com/K-Ketchup/Personal-Portfolio">
-                    <button className="transform hover:translate-y-0.5 transition duration-400 flex inline-flex h-12 w-80 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                        Github For This Project 😼
-                    </button>
-                </Link>
+                        </Link>;
+                    })}
+                </div>
+                <div className="flex justify-center space-y-20">
+                    <Link href="https://github.com/K-Ketchup/Personal-Portfolio">
+                        <button className="transform hover:translate-y-0.5 transition duration-400 flex inline-flex h-12 w-80 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                            Github For This Project 😼
+                        </button>
+                    </Link>
+                </div>
             </div>
         </div>
         
