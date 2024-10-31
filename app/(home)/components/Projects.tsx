@@ -14,7 +14,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
-            text: "",
+            text: "Personal website made using Next.js, TypeScript, and React.",
         },
         {
             title: "Dook",
@@ -22,7 +22,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownemotiondetector.png",
             background: "bg-red-400",
-            text: "",
+            text: "Utility iOS and Android mobile application made using .NET MAUI. The backend is C#, frontend is XAML, and every user input is logged in an Azure database using SQL.",
         },
         {
             title: "Facial Emotion AI",
@@ -30,7 +30,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownemotiondetector.png",
             background: "bg-red-400",
-            text: "",
+            text: "An AI facial emotion detector created with Python and Tensorflow. Uses a convolution neural network to plot facial landmarks, measure euclidian distances between them, and produce an emotion.",
         },
         {
             title: "Evacuation Drill AI",
@@ -38,7 +38,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
-            text: "",
+            text: "An AI school evacuation drill simulator that analyzes clog points and crowds during evacuation to produce optimal paths for evacuation. Made using Unity and C#.",
         },
         {
             title: "Digital Diary",
@@ -46,7 +46,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
-            text: "",
+            text: "A digital diary made using Unity and C#. All data can be exported through a .txt file.",
         },
         {
             title: "Digital License Register",
@@ -54,7 +54,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-400",
-            text: "",
+            text: "A digital driver's license catalog made using Unity and C#.",
         },
         {
             title: "Library Database",
@@ -62,7 +62,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-400",
-            text: "",
+            text: "A text-based Java library database. Can be used to log data of different books/movies/articles and can also account for monthly pay. All data can be exported through a .txt file.",
         },
         {
             title: "Video Games",
@@ -70,7 +70,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
-            text: "",
+            text: "Consists of several different games created solo using Unity and C#. All sprites, animations, level design, and sound design is by me.",
         },
     ];
 
