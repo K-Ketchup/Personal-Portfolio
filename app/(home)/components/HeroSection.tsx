@@ -26,7 +26,7 @@ export default function HeroSection() {
                 <Link href="http://ketchupcentral.com">
                     <button className="transform hover:translate-y-0.5 transition duration-400 relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ef4444_0%,#fca5a5_50%,#ef4444_100%)]" />
-                        <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                        <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full dark:bg-zinc-900 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
                         Games I Made In Middle School ⭐
                         </span>
                     </button>
