@@ -75,7 +75,7 @@ export default function Projects() {
     ];
 
     return (
-        <div className="py-30 pt-5 p-5 sm:p-0 space-y-5">
+        <div className="py-50 pt-5 p-5 sm:p-0 space-y-10">
             <Title text="Projects" className="flex flex-col items-center justify-center rotate-6 mt-20"/>
             <div className="space-y-10 text-center lg:text-center flex justify-center">
                 <p className="md:w-80 text-lg text-gray-300">
@@ -84,7 +84,7 @@ export default function Projects() {
                     }
                 </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-25">
                 {projects.map((project, index)=>{
                     return <Link href={project.Link} key={index}>
                         <div
