@@ -41,30 +41,6 @@ export default function Projects() {
             text: "",
         },
         {
-            title: "Library Database",
-            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
-            Link: "https://imkenshonishio.vercel.app/",
-            cover: "/brownpersonalportfolio.png",
-            background: "bg-red-400",
-            text: "",
-        },
-        {
-            title: "Ketchup First Game",
-            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
-            Link: "https://imkenshonishio.vercel.app/",
-            cover: "/brownpersonalportfolio.png",
-            background: "bg-red-400",
-            text: "",
-        },
-        {
-            title: "Boneshackled",
-            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
-            Link: "https://imkenshonishio.vercel.app/",
-            cover: "/brownpersonalportfolio.png",
-            background: "bg-red-400",
-            text: "",
-        },
-        {
             title: "Digital Diary",
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
@@ -80,18 +56,27 @@ export default function Projects() {
             background: "bg-red-400",
             text: "",
         },
+        {
+            title: "Library Database",
+            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            Link: "https://imkenshonishio.vercel.app/",
+            cover: "/brownpersonalportfolio.png",
+            background: "bg-red-400",
+            text: "",
+        },
+        {
+            title: "Video Games",
+            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            Link: "https://imkenshonishio.vercel.app/",
+            cover: "/brownpersonalportfolio.png",
+            background: "bg-red-400",
+            text: "",
+        },
     ];
 
     return (
         <div className="py-5 pt-5 p-5 sm:p-0 space-y-5">
             <Title text="Projects" className="flex flex-col items-center justify-center rotate-6"/>
-            <div className="space-y-10 text-center lg:text-center flex justify-center">
-                <p className="md:w-80 text-lg text-gray-300">
-                    {
-                        "Here are some projects I've worked on over the past few years!"
-                    }
-                </p>
-            </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-10">
                 {projects.map((project, index)=>{
                     return <Link href={project.Link} key={index}>
@@ -104,9 +89,9 @@ export default function Projects() {
                            <Image
                                 src={project.cover}
                                 alt="ProjectImage"
-                                height="500"
-                                width="500"
-                                className="object-contain rounded-2xl"
+                                height="700"
+                                width="700"
+                                className="object-contain rounded-2xl justify-center"
                             />
                             
                             <div className="space-y-1">
@@ -123,6 +108,11 @@ export default function Projects() {
                                         </p>
                                     </div>
                                  </div>
+                            </div>
+                            <div className="space-y-10 text-center lg:text-center flex justify-center">
+                                <p className="md:w-80 text-lg text-gray-300">
+                                    {project.text}
+                                </p>
                             </div>
                         </div>
                     </Link>;
