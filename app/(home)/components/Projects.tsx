@@ -14,7 +14,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
-            text: "Personal website made using Next.js, TypeScript, and React.",
+            text: "A website to showcase my skills and projects. Made using Next.js, TypeScript, and React. You can also take a look at my middle school website above!",
         },
         {
             title: "Dook",
@@ -30,7 +30,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownemotiondetector.png",
             background: "bg-red-400",
-            text: "An AI facial emotion detector created with Python and Tensorflow. Uses a convolution neural network to plot facial landmarks, measure euclidian distances between them, and produce an emotion.",
+            text: "An AI facial emotion detector created with Python and Tensorflow. Uses a convolution neural network to plot facial landmarks, measure euclidian distances between them, and evaluate an emotion.",
         },
         {
             title: "Evacuation Drill AI",
@@ -38,7 +38,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
-            text: "An AI school evacuation drill simulator that analyzes clog points and crowds during evacuation to produce optimal paths for evacuation. Made using Unity and C#.",
+            text: "An AI school evacuation drill simulator that analyzes clog points and crowds during evacuation using neural networks to produce optimal paths for evacuation. Made using Unity and C#.",
         },
         {
             title: "Digital Diary",
@@ -96,7 +96,7 @@ export default function Projects() {
                             
                             <div className="space-y-1">
                                 <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
-                                <div className="flex items-center gap-4">
+                                <div className="flex gap-4">
                                     {project.tech.map((Icon, index)=>{
                                         return <Icon className="w-8 h-8" key={index} />;
                                     })}
