@@ -40,7 +40,7 @@ export default function Projects() {
                             <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
                                 <Image
                                     src={project.cover}
-                                    alt="KetchupKensho"
+                                    alt="ProjectImage"
                                     height="800"
                                     width="800"
                                     className="object-contain rounded-2xl"
