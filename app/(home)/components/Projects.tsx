@@ -21,15 +21,15 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
-            background: "bg-red-500",
+            background: "bg-red-400",
             text: "",
         },
         {
-            title: "Dook App",
+            title: "Bruh",
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
-            background: "bg-red-400",
+            background: "bg-red-500",
             text: "",
         },
     ];
