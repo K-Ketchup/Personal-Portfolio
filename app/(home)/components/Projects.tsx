@@ -1,12 +1,7 @@
-import {
-    SiNextdotjs,
-    SiReactquery,
-    SiSupabase,
-    SiTailwindcss,
-} from "react-icons/si";
-
-import React from 'react'
+import React from 'react';
 import Title from "./Title";
+import { SiNextdotjs, SiReactquery, SiTailwindcss } from "react-icons/si";
+import Link from "next/link";
 
 export default function Projects() {
     const projects = [
