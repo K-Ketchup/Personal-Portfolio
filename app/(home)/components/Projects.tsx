@@ -32,10 +32,10 @@ export default function Projects() {
     ];
 
     return (
-        <div className="py-10 pt-5 p-5 sm:p-0 gap-20">
+        <div className="py-10 pt-5 p-5 sm:p-0 space-y-10">
             <Title text="Projects" className="flex flex-col items-center justify-center rotate-6"/>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-8">
                 {projects.map((project, index)=>{
                     return <Link href={project.Link} key={index}>
                         <div
@@ -52,7 +52,7 @@ export default function Projects() {
                                 className="object-contain rounded-2xl"
                             />
                             
-                            <div className="space-y-5">
+                            <div className="space-y-10">
                                 <h1 className="text-2xl font-bold">{project.title}</h1>
                                 <div>
                                     {project.tech.map((Icon, index)=>{
@@ -64,7 +64,7 @@ export default function Projects() {
                     </Link>;
                 })}
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center space-y-20">
                 <Link href="https://github.com/K-Ketchup/Personal-Portfolio">
                     <button className="transform hover:translate-y-0.5 transition duration-400 flex inline-flex h-12 w-80 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                         Github For This Project 😼
