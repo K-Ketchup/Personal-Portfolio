@@ -101,8 +101,8 @@ export default function Projects() {
                                 className="object-contain rounded-2xl justify-center"
                             />
 
-                            <div className="flex flex-col">
-                                <div className="flex flex-row">
+                            <div className="flex flex-col py-2 space-y-2">
+                                <div className="flex flex-row space-x-2">
                                     <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
                                     <div className="flex flex-row gap-4">
                                         {project.tech.map((Icon, index)=>{
@@ -111,7 +111,7 @@ export default function Projects() {
                                     </div>
                                 </div>
                                 <div>
-                                   <p className="md:w-80 text-lg text-gray-0">
+                                   <p className="md:w-140 text-lg text-gray-0">
                                         {project.text}
                                     </p>
                                 </div>
