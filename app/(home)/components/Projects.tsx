@@ -24,10 +24,10 @@ export default function Projects() {
     ];
 
     return (
-        <div className="py-10 pt-10 p-5 sm:p-0">
+        <div className="py-10 pt-30 p-5 sm:p-0">
             <Title text="Projects" className="flex flex-col items-center justify-center rotate-6"/>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 pt-20">
+            <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
                 {projects.map((project, index)=>{
                     return <Link href={project.Link} key={index}>
                         <div
@@ -38,6 +38,7 @@ export default function Projects() {
                         >
                             <DirectionAwareHover 
                                 imageUrl={project.cover}
+                                className="w-full space-y-5 cursor-pointer"
                             >
                                 <h1>{project.title}</h1>
                                 
