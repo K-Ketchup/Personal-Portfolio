@@ -46,15 +46,6 @@ export default function Projects() {
                                     className="object-contain rounded-2xl"
                                 />
                             </BackgroundGradient>
-
-                            <div className="space-y-5">
-                                <h1 className="text-2xl font-bold">{project.title}</h1>
-                                <div>
-                                    {project.tech.map((Icon, index)=>{
-                                        return <Icon className="w-8 h-8" key={index} />;
-                                    })}
-                                 </div>
-                            </div>
                         </div>
                     </Link>;
                 })}
