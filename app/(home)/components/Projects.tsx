@@ -33,15 +33,15 @@ export default function Projects() {
                     return <Link href={project.Link} key={index}>
                         <div
                             className={cn(
-                                "p-5 rounded-md", 
+                                "p-5 rounded-2xl", 
                                 project.background
                             )}
                         >
                            <Image
                                 src={project.cover}
                                 alt="ProjectImage"
-                                height="800"
-                                width="800"
+                                height="600"
+                                width="600"
                                 className="object-contain rounded-2xl"
                             />
                             
