@@ -14,6 +14,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-indigo-500",
+            text: "",
         },
         {
             title: "Dook App",
@@ -21,6 +22,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-indigo-500",
+            text: "",
         },
         {
             title: "Dook App",
@@ -28,6 +30,7 @@ export default function Projects() {
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
             background: "bg-indigo-500",
+            text: "",
         },
     ];
 
@@ -52,8 +55,8 @@ export default function Projects() {
                                 className="object-contain rounded-2xl"
                             />
                             
-                            <div className="space-y-10">
-                                <h1 className="text-2xl font-bold">{project.title}</h1>
+                            <div className="space-y-1">
+                                <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
                                 <div>
                                     {project.tech.map((Icon, index)=>{
                                         return <Icon className="w-8 h-8" key={index} />;
