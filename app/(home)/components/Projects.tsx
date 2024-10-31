@@ -84,12 +84,12 @@ export default function Projects() {
                     }
                 </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-2">
                 {projects.map((project, index)=>{
                     return <Link href={project.Link} key={index}>
                         <div
                             className={cn(
-                                "p-5 rounded-2xl gap-4 h-600 mt-20", 
+                                "p-5 rounded-2xl gap-4 h-600 mt-15", 
                                 project.background
                             )}>
 
