@@ -2,6 +2,8 @@ import React from 'react';
 import Title from "./Title";
 import { SiNextdotjs, SiReactquery, SiTailwindcss } from "react-icons/si";
 import Link from "next/link";
+import { cn } from '@/lib/utils';
+import { DirectionAwareHover } from "@/components/ui/dahoover";
 
 export default function Projects() {
     const projects = [
@@ -26,7 +28,23 @@ export default function Projects() {
             <Title text="Projects" className="flex flex-col items-center justify-center rotate-6"/>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 pt-20">
-
+                {projects.map((project, index)=>{
+                    return <Link href={project.Link} key={index}>
+                        <div
+                            className={cn(
+                                "p-5 rounded-md", 
+                                project.background
+                            )}
+                        >
+                            <DirectionAwareHover 
+                                imageUrl={project.cover}
+                            >
+                                <h1>{project.title}</h1>
+                                
+                            </DirectionAwareHover>
+                        </div>
+                    </Link>;
+                })}
             </div>
         </div>
     );
