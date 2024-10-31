@@ -102,17 +102,10 @@ export default function Projects() {
                                     })}
                                     <div>
                                         <p className="md:w-80 text-lg text-gray-300">
-                                            {
-                                                "Here are some projects I've worked on over the past few years!"
-                                            }
+                                            {project.text}
                                         </p>
                                     </div>
                                  </div>
-                            </div>
-                            <div className="space-y-10 text-center lg:text-center flex justify-center">
-                                <p className="md:w-80 text-lg text-gray-300">
-                                    {project.text}
-                                </p>
                             </div>
                         </div>
                     </Link>;
