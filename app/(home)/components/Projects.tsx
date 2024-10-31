@@ -75,9 +75,9 @@ export default function Projects() {
     ];
 
     return (
-        <div className="py-5 pt-5 p-5 sm:p-0 space-y-5">
-            <Title text="Projects" className="flex flex-col items-center justify-center rotate-6"/>
-            <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-10">
+        <div className="py-20 pt-5 p-5 sm:p-0 space-y-5">
+            <Title text="Projects" className="flex flex-col items-center justify-center rotate-6 mt-10"/>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-5">
                 {projects.map((project, index)=>{
                     return <Link href={project.Link} key={index}>
                         <div
@@ -85,7 +85,7 @@ export default function Projects() {
                                 "p-5 rounded-2xl gap-4 h-600", 
                                 project.background
                             )}>
-                                
+
                            <Image
                                 src={project.cover}
                                 alt="ProjectImage"
