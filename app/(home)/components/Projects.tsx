@@ -21,7 +21,7 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
-            background: "bg-red-400",
+            background: "bg-red-500",
             text: "",
         },
         {
@@ -29,14 +29,14 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
-            background: "bg-red-500",
+            background: "bg-red-400",
             text: "",
         },
     ];
 
     return (
         <div className="py-10 pt-5 p-5 sm:p-0 space-y-10">
-            <Title text="Projects" className="flex flex-col items-center justify-center rotate-6 space-y-10"/>
+            <Title text="Projects" className="flex flex-col items-center justify-center rotate-6"/>
             <div className="space-y-10 text-center lg:text-center flex justify-center">
                 <p className="md:w-80 text-lg text-gray-300">
                     {
