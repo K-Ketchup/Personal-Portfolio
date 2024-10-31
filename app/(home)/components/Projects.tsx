@@ -37,7 +37,7 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
-            background: "bg-red-400",
+            background: "bg-red-500",
             text: "",
         },
         {
@@ -45,7 +45,7 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
-            background: "bg-red-400",
+            background: "bg-red-500",
             text: "",
         },
         {
@@ -69,7 +69,7 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             Link: "https://imkenshonishio.vercel.app/",
             cover: "/brownpersonalportfolio.png",
-            background: "bg-red-400",
+            background: "bg-red-500",
             text: "",
         },
     ];
@@ -82,7 +82,7 @@ export default function Projects() {
                     return <Link href={project.Link} key={index}>
                         <div
                             className={cn(
-                                "p-5 rounded-2xl", 
+                                "p-5 rounded-2xl gap-2", 
                                 project.background
                             )}
                         >
