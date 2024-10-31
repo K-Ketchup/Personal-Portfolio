@@ -19,7 +19,8 @@ export default function Projects() {
             cover: "/Brown --- Personal Portfolio.png",
             background: "bg-indigo-500",
         },
-    ]
+    ];
+    
     return (
         <div className="py-10 p-5 sm:p-0">
             <Title
