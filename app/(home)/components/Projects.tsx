@@ -22,6 +22,13 @@ export default function Projects() {
             cover: "/brownpersonalportfolio.png",
             background: "bg-indigo-500",
         },
+        {
+            title: "Dook App",
+            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            Link: "https://imkenshonishio.vercel.app/",
+            cover: "/brownpersonalportfolio.png",
+            background: "bg-indigo-500",
+        },
     ];
 
     return (
