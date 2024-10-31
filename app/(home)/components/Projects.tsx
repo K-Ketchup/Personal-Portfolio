@@ -2,8 +2,9 @@ import React from 'react';
 import Title from "./Title";
 import { SiNextdotjs, SiReactquery, SiTailwindcss } from "react-icons/si";
 import Link from "next/link";
+import Image from "next/image";
 import { cn } from '@/lib/utils';
-import { DirectionAwareHover } from "@/components/ui/dahoover";
+import { BackgroundGradient } from "@/components/ui/Background-Gradient";
 
 export default function Projects() {
     const projects = [
@@ -36,19 +37,24 @@ export default function Projects() {
                                 project.background
                             )}
                         >
-                            <DirectionAwareHover 
-                                imageUrl={project.cover}
-                                className="flex items-center gap-5"
-                            >
-                                <div className="space-y-5">
-                                    <h1 className="text-2xl font-bold">{project.title}</h1>
-                                    <div>
-                                        {project.tech.map((Icon, index)=>{
-                                            return <Icon className="w-8 h-8" key={index} />;
-                                        })}
-                                    </div>
-                                </div>
-                            </DirectionAwareHover>
+                            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+                                <Image
+                                    src={String(project.cover)}
+                                    alt="KetchupKensho"
+                                    height="800"
+                                    width="800"
+                                    className="object-contain rounded-2xl"
+                                />
+                            </BackgroundGradient>
+
+                            <div className="space-y-5">
+                                <h1 className="text-2xl font-bold">{project.title}</h1>
+                                <div>
+                                    {project.tech.map((Icon, index)=>{
+                                        return <Icon className="w-8 h-8" key={index} />;
+                                    })}
+                                 </div>
+                            </div>
                         </div>
                     </Link>;
                 })}
