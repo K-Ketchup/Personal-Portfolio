@@ -20,7 +20,7 @@ export default function Skills() {
                     }
                 </p>
             </div>
-            <div className="h-[20rem] space-x-5 relative  flex items-center justify-center">
+            <div className="h-[20rem] space-x-5 relative flex items-center justify-center">
                 <DirectionAwareHover imageUrl={"/csharp.jpg"}>
                     <p className="font-bold text-xl">C#</p>
                     <p className="font-normal text-sm">5 Years. Unity and Appdev.</p>
