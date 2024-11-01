@@ -70,14 +70,14 @@ export default function Projects() {
     return (
         <div className="py-50 pt-5 p-5 sm:p-0 space-y-2">
             <Title text="Projects" className="flex flex-col items-center justify-center rotate-6 mt-20"/>
-            <div className="space-y-5 py-5 text-center lg:text-center flex justify-center">
+            <div className="space-y-5 py-3 text-center lg:text-center flex justify-center">
                 <p className="md:w-80 text-lg text-gray-300">
                     {
                         "Here are some projects I've worked on over the years!"
                     }
                 </p>
             </div>
-            <div className="py-18">
+            <div className="py-26">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-2">
                     {projects.map((project, index)=>{
                         return <div key={index}>
