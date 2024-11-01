@@ -19,7 +19,7 @@ export default function Projects() {
         {
             title: "Dook App",
             tech: [SiXaml, SiCsharp, SiMicrosoftazure],
-            cover: "/brownedookapp.png",
+            cover: "/browndookapp.png",
             background: "bg-red-400",
             text: "iOS and Android mobile application made using .NET MAUI. The backend is C#, frontend is XAML, and every user input is logged in an cloud Azure database using SQL. Users can find and register restrooms and review them (like Yelp).",
         },
