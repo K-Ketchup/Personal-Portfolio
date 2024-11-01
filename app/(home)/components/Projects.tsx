@@ -97,7 +97,7 @@ export default function Projects() {
                                     className="object-contain rounded-2xl justify-center max-h-[380]"
                                 />
 
-                                <div className="flex flex-col py-2 space-y-2">
+                                <div className="flex flex-col py-4 space-y-2">
                                     <div className="flex flex-row space-x-4">
                                         <h1 className="text-2xl font-bold space-y-5">{project.title}</h1>
                                         <div className="flex flex-row gap-4">
