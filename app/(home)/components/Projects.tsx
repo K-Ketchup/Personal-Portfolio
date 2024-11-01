@@ -14,7 +14,7 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
-            text: "A website to showcase my skills and projects. Made using Next.js, TypeScript, and React. You can also take a look at my middle school website above to see my video games!",
+            text: "A website to showcase my skills and projects. Made using Next.js, TypeScript, and React, and published online through Vercel. You can also take a look at my middle school website above to play my video games!",
         },
         {
             title: "Dook App",
@@ -61,9 +61,9 @@ export default function Projects() {
         {
             title: "Video Games",
             tech: [SiCsharp, SiUnity, SiAseprite],
-            cover: "/brownpersonalportfolio.png",
+            cover: "/dookvideogames.png",
             background: "bg-red-500",
-            text: "Consists of several different games created solo using Unity and C#. All sprites, animations, level design, and sound design is by me.",
+            text: "Consists of several different games using Unity and C#. All sprites, animations, level design, and sound design is by me. I'd like to mention 'Brackeys' on YouTube - his tutorials helped me out immensely as a beginner.",
         },
     ];
 
@@ -74,7 +74,7 @@ export default function Projects() {
                 <div className="space-y-0 text-center lg:text-center flex justify-center">
                     <p className="md:w-80 text-lg text-gray-300">
                         {
-                            "Here are some projects I've worked on over the years!"
+                            "Here are some projects I've worked on over the years. Everything is self taught and created by myself!"
                         }
                     </p>
                 </div>
