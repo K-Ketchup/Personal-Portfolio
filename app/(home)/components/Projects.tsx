@@ -54,9 +54,9 @@ export default function Projects() {
         {
             title: "Library Database",
             tech: [FaJava],
-            cover: "/brownpersonalportfolio.png",
+            cover: "/dookeclipselibrary.png",
             background: "bg-red-400",
-            text: "A text-based Java library database. Can be used to log data of different books/movies/articles and can also account for monthly pay. All data can be exported through a .txt file.",
+            text: "A text-based Java library database created for Computer Science A. Can be used to log data of different books/movies/articles and can also account for monthly pay. All data can be exported through a .txt file.",
         },
         {
             title: "Video Games",
