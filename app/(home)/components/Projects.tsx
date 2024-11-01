@@ -68,17 +68,19 @@ export default function Projects() {
     ];
 
     return (
-        <div className="py-50 pt-5 p-5 sm:p-0 space-y-6">
-            <Title text="Projects" className="flex flex-col items-center justify-center rotate-6 mt-20"/>
-            <div className="space-y-0 text-center lg:text-center flex justify-center">
-                <p className="md:w-80 text-lg text-gray-300">
-                    {
-                        "Here are some projects I've worked on over the years!"
-                    }
-                </p>
+        <div className="py-50 pt-5 p-5 sm:p-0 space-y-10">
+            <div className="space-y-6">
+                <Title text="Projects" className="flex flex-col items-center justify-center rotate-6 mt-20"/>
+                <div className="space-y-0 text-center lg:text-center flex justify-center">
+                    <p className="md:w-80 text-lg text-gray-300">
+                        {
+                            "Here are some projects I've worked on over the years!"
+                        }
+                    </p>
+                </div>
             </div>
             <div className="py-26">
-                <div className="py-26 grid grid-cols-1 sm:grid-cols-2 gap-10 mt-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-2">
                     {projects.map((project, index)=>{
                         return <div key={index}>
                             <div
