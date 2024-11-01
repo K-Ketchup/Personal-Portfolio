@@ -14,7 +14,7 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
-            text: "A website to showcase my skills and projects. Made using Next.js, TypeScript, and React. You can also take a look at my middle school website above!",
+            text: "A website to showcase my skills and projects. Made using Next.js, TypeScript, and React. You can also take a look at my middle school website above to see my video games!",
         },
         {
             title: "Dook App",
@@ -28,7 +28,7 @@ export default function Projects() {
             tech: [SiPython, SiTensorflow, SiKeras],
             cover: "/brownemotiondetector.png",
             background: "bg-red-400",
-            text: "An AI facial emotion detector created with Python and Tensorflow. Uses a convolution neural network to plot facial landmarks, measure euclidian distances between them, and evaluate an emotion.",
+            text: "An AI facial emotion detector created with Python and Tensorflow. Uses a convolution neural network to plot facial landmarks, measure euclidian distances between them, and determine a emotion off of a picture.",
         },
         {
             title: "Evacuation Drill AI",
