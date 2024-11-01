@@ -17,11 +17,11 @@ export default function Projects() {
             text: "A website to showcase my skills and projects. Made using Next.js, TypeScript, and React. You can also take a look at my middle school website above!",
         },
         {
-            title: "Dook",
+            title: "Dook App",
             tech: [SiXaml, SiCsharp, SiMicrosoftazure],
-            cover: "/brownemotiondetector.png",
+            cover: "/brownedookapp.png",
             background: "bg-red-400",
-            text: "Utility iOS and Android mobile application made using .NET MAUI. The backend is C#, frontend is XAML, and every user input is logged in an Azure database using SQL.",
+            text: "iOS and Android mobile application made using .NET MAUI. The backend is C#, frontend is XAML, and every user input is logged in an cloud Azure database using SQL. Users can find and register restrooms and review them (like Yelp).",
         },
         {
             title: "Facial Emotion AI",
