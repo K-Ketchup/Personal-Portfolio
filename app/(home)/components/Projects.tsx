@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from "./Title";
-import { SiNextdotjs, SiReactquery, SiTailwindcss, SiXaml, SiCsharp, SiMicrosoftazure, SiPython, SiTensorflow, SiKeras, SiUnity, SiAseprite } from "react-icons/si";
+import { SiNextdotjs, SiReactquery, SiTailwindcss, SiXaml, SiCsharp, SiTypescript, SiMicrosoftazure, SiDotnet, SiPython, SiTensorflow, SiKeras, SiUnity, SiAseprite } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
@@ -11,14 +11,14 @@ export default function Projects() {
     const projects = [
         {
             title: "Personal Portfolio",
-            tech: [SiNextdotjs, SiTailwindcss, SiReactquery],
+            tech: [SiNextdotjs, SiTailwindcss, SiReactquery, SiTypescript],
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
             text: "A website to showcase my skills and projects. Made using Next.js, TypeScript, and React, and published online through Vercel. You can also take a look at my middle school website above to play my video games!",
         },
         {
             title: "Dook App",
-            tech: [SiXaml, SiCsharp, SiMicrosoftazure],
+            tech: [SiXaml, SiCsharp, SiMicrosoftazure, SiDotnet],
             cover: "/browndookapp.png",
             background: "bg-red-400",
             text: "iOS and Android mobile application made using .NET MAUI. The backend is C#, frontend is XAML, and every user input is logged in an cloud Azure database using SQL. Users can find and register restrooms and review them (like Yelp).",
