@@ -55,7 +55,7 @@ export default function Projects() {
             title: "Video Games",
             tech: [SiCsharp, SiUnity, SiAseprite],
             cover: "/dookvideogames2.png",
-            background: "bg-red-500",
+            background: "bg-red-400",
             text: "Consists of several different games using Unity and C#. All sprites, animations, level design, and sound design is by me. I'd like to mention 'Brackeys' on YouTube - his tutorials helped me out immensely as a beginner.",
         },
     ];
