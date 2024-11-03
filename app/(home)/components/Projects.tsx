@@ -33,9 +33,9 @@ export default function Projects() {
         {
             title: "Evacuation Drill AI",
             tech: [SiCsharp, SiUnity],
-            cover: "/brownpersonalportfolio.png",
+            cover: "/brownevacuationdrill3.png",
             background: "bg-red-500",
-            text: "An AI school evacuation drill simulator that analyzes clog points and crowds during evacuation using neural networks to produce optimal paths for evacuation. Made using Unity and C#.",
+            text: "An AI school evacuation drill simulator that analyzes clog points and crowds during evacuation using pathfinding neural networks to produce optimal paths for evacuation. Made using Unity and C#.",
         },
         // {
         //     title: "Digital Diary",
