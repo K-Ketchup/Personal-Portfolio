@@ -37,20 +37,13 @@ export default function Projects() {
             background: "bg-red-500",
             text: "An AI school evacuation drill simulator that analyzes clog points and crowds during evacuation using pathfinding neural networks to produce optimal paths for evacuation. Made using Unity and C#.",
         },
-        // {
-        //     title: "Digital Diary",
-        //     tech: [SiCsharp, SiUnity],
-        //     cover: "/brownpersonalportfolio.png",
-        //     background: "bg-red-500",
-        //     text: "A digital diary made using Unity and C#. All data can be exported through a .txt file.",
-        // },
-        // {
-        //     title: "Digital License Register",
-        //     tech: [SiCsharp, SiUnity],
-        //     cover: "/brownpersonalportfolio.png",
-        //     background: "bg-red-400",
-        //     text: "A digital driver's license catalog made using Unity and C#.",
-        // },
+        {
+             title: "Digital Diary and License Register",
+             tech: [SiCsharp, SiUnity],
+             cover: "/dookdriversanddiary.png",
+             background: "bg-red-500",
+             text: "Bottom left: A digital diary with a contact list and notifications that run on your computer 24/7. Also comes with a callendar to track events. Top right: A digital license register to track licenses and drivers data. Both are made with Unity and C#, and all data can be exported through a .txt file.",
+         },
         {
             title: "Library Database",
             tech: [FaJava],
