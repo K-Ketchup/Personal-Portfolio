@@ -17,9 +17,9 @@ export default function HeroSection() {
                 Hi there, I'm 
                 <br/> <span className="underline underline-offset-8 decoration-red-400">{"Kensho."}</span>
             </h1>
-            <p className="md:w-96 text-lg text-gray-300">
+            <p className="md:w-96 text-lg text-gray-300" style={{ whiteSpace: "pre-line" }}>
                 {
-                    "I'm a developer and student at Brown University, currently studying Computer Science and Art History.{"\n"}{"\n"}I enjoy creating mobile applications, video games, and low-level programs. Outside of programming, I am particularly fascinated by ideas surrounding fashion design.{"\n"}{"\n"}I am currently taking CS300: Fundamental of Computer Systems while working on a personal project focused on machine learning and art."
+                    "I'm a developer and student at Brown University, currently studying Computer Science and Art History.\n\nI enjoy creating mobile applications, video games, and low-level programs. Outside of programming, I am particularly fascinated by ideas surrounding fashion design.\n\nI am currently taking CS300: Fundamental of Computer Systems while working on a personal project focused on machine learning and art."
                 }
             </p>
 
