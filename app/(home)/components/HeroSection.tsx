@@ -19,23 +19,15 @@ export default function HeroSection() {
             </h1>
             <p className="md:w-96 text-lg text-gray-300">
                 {
-                    "I'm a highschool developer based in Los Angeles, California. I enjoy creating mobile applications, video games, and low-level programs. Currently learning Rust and OS Development with Ubuntu."
+                    "I'm a developer and student at Brown University, currently studying Computer Science and Art History. I enjoy creating mobile applications, video games, and low-level programs; within the field of art history, I am particularly fascinated by the evolution of and ideas surrounding fashion design. I am currently taking CS300: Fundamental of Computer Systems while working on a personal project focused on machine learning and art."
                 }
             </p>
-            <div className="flex justify-start">
-                <Link href="http://ketchupcentral.com">
-                    <button className="transform hover:translate-y-0.5 transition duration-400 relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                        <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ef4444_0%,#fca5a5_50%,#ef4444_100%)]" />
-                        <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full dark:bg-zinc-900 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-                        Games I Made In Middle School ⭐
-                        </span>
-                    </button>
-                </Link>
-            </div>
+
             <Link href={"mailto:kenshonishio7@gmail.com"} className="inline-block group justify-center items-center">
                 <Title text="Contact 📧"/>
             </Link>
         </div>
+
         <div className="flex gap-4">
             <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
                 <Image
