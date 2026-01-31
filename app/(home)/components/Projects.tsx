@@ -14,7 +14,7 @@ export default function Projects() {
             tech: [SiNextdotjs, SiTailwindcss, SiReactquery, SiTypescript],
             cover: "/brownpersonalportfolio.png",
             background: "bg-red-500",
-            text: "A website to showcase my skills and projects. Made using Next.js, TypeScript, and React, and published online through Vercel. You can also take a look at my middle school website above to play my video games!",
+            text: "A website to showcase my skills and projects. Made using Next.js, TypeScript, and React, and published online through Vercel.",
         },
         {
             title: "Dook App",
@@ -42,7 +42,7 @@ export default function Projects() {
              tech: [SiCsharp, SiUnity],
              cover: "/dookdriversanddiary.png",
              background: "bg-red-500",
-             text: "Bottom left: A digital diary with a contact list and notifications that run on your computer 24/7. Also comes with a callendar to track events. Top right: A digital license register to track licenses and drivers data. Both are made with Unity and C#, and all data can be exported through a .txt file.",
+             text: "Bottom left: A digital diary with a contact list and notifications that run on your computer 24/7. Also comes with a callendar to track events. Top right: A digital license register to track licenses and drivers data. Both are made with Unity and C#, and all data can be exported.",
          },
         {
             title: "Library Database",
@@ -56,7 +56,7 @@ export default function Projects() {
             tech: [SiCsharp, SiUnity, SiAseprite],
             cover: "/dookvideogames2.png",
             background: "bg-red-400",
-            text: "Consists of several different games using Unity and C#. All sprites, animations, level design, and sound design is by me. I'd like to mention 'Brackeys' on YouTube - his tutorials helped me out immensely as a beginner.",
+            text: "Consists of several different games using Unity and C#. All sprites, animations, level design, and sound design is done by me.",
         },
     ];
 
@@ -67,7 +67,7 @@ export default function Projects() {
                 <div className="space-y-0 text-center lg:text-center flex justify-center">
                     <p className="md:w-80 text-lg text-gray-300">
                         {
-                            "Here are some projects I've worked on over the years. Everything is self taught and created by myself!"
+                            "Here are some projects I've worked on over the years. Everything here is a solo project."
                         }
                     </p>
                 </div>
